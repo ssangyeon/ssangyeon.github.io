@@ -41,6 +41,7 @@
       "status": "UNDER REVIEW",
       "year": 2025,
       "pdf": true,
+      "selected": true,
       "pdf_url": "https://arxiv.org/abs/2505.14832",
       "desc": ""
     },
@@ -51,6 +52,7 @@
       "status": "",
       "year": 2024,
       "pdf": true,
+      "selected": true,
       "pdf_url": "https://arxiv.org/abs/2412.01756",
       "desc": ""
     }
