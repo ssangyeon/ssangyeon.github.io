@@ -6,6 +6,7 @@
         "status": "UNDER REVIEW",
         "year": 2025,
         "pdf": true,
+        "selected": true,
         "pdf_url": "https://www.arxiv.org/abs/2505.15214",
         "website_url": "https://ai-isl.github.io/r-tofu",
         "desc": ""
