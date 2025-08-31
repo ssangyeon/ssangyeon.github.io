@@ -3,12 +3,23 @@
         "title": "R-TOFU: Unlearning in Large Reasoning Models",
         "authors": "Sangyeon Yoon, Wonje Jeung, Albert No",
         "venue": "EMNLP",
-        "status": "UNDER REVIEW",
+        "status": "Main (Oral Presentation)",
         "year": 2025,
         "pdf": true,
         "selected": true,
         "pdf_url": "https://www.arxiv.org/abs/2505.15214",
         "website_url": "https://ai-isl.github.io/r-tofu",
+        "desc": ""
+      },
+    {
+        "title": "SEPS: A Separability Measure for Robust Unlearning in LLMs",
+        "authors": "Wonje Jeung*, Sanyeon Yoon*, Albert No",
+        "venue": "EMNLP",
+        "status": "Main",
+        "year": 2025,
+        "pdf": true,
+        "selected": true,
+        "pdf_url": "https://arxiv.org/abs/2505.14832",
         "desc": ""
       },
     {
@@ -35,17 +46,6 @@
         "website_url": "https://ai-isl.github.io/safepath",
         "desc": ""
       },
-    {
-      "title": "SEPS: A Separability Measure for Robust Unlearning in LLMs",
-      "authors": "Wonje Jeung*, Sanyeon Yoon*, Albert No",
-      "venue": "EMNLP",
-      "status": "UNDER REVIEW",
-      "year": 2025,
-      "pdf": true,
-      "selected": true,
-      "pdf_url": "https://arxiv.org/abs/2505.14832",
-      "desc": ""
-    },
     {
       "title": "Adversarial Sample-Based Approach for Tighter Privacy Auditing in Final Model-Only Scenarios",
       "authors": "Sangyeon Yoon*, Wonje Jeung*, Albert No",
