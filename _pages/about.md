@@ -22,5 +22,5 @@ I work on <span class="blue-text">privacy, safety, and reasoning</span>. 🤝 If
 <ul>
   <li><b>Aug 2025:</b> Two papers (<span>R-TOFU</span> and <span>SEPS</span>) have been accepted to EMNLP 2025 Main. See you in China 🇨🇳! </li>
   <li><b>May 2025:</b> Four new papers are now on arXiv! These include work on safety alignment in reasoning models (<span>SAFEPATH</span>), unlearning benchmarks (<span>DUSK</span> and <span>R-TOFU</span>), and unlearning fragility (<span>SEPS</span>).</li>
-  <li><b>Dec 2024:</b> Our paper on sample-based privacy auditing for final model-only scenarios will appear at the NeurIPS SFLLM Workshop in Canada 🇨🇦!</li>
+  <li><b>Dec 2024:</b> Our paper on sample-based privacy auditing for final model-only scenarios will appear at the NeurIPS 2024 SFLLM Workshop in Canada 🇨🇦!</li>
 </ul>
