@@ -14,7 +14,7 @@ redirect_from:
   }
 </style>
 
-I am a Master student in <span class="blue-text">Artificial Intelligence</span> at <span class="blue-text">Yonsei University</span>, advised by Professor <span class="blue-text">Albert No</span>, with a research focus on robust large language models.
+I am a Master student in Artificial Intelligence at Yonsei University, advised by Professor Albert No, with a research focus on robust large language models.
 
 <hr>
 <h2>News</h2>
