@@ -14,14 +14,14 @@ redirect_from:
   }
 </style>
 
-👋 Hello! I'm <span class="blue-text">Sangyeon Yoon</span>, an incoming Master's student in <span class="blue-text">Artificial Intelligence</span> at <span class="blue-text">Yonsei University</span>, where I will be fortunate to be advised by Professor <span class="blue-text">Albert No</span>.
-I work on <span class="blue-text">privacy, safety, and reasoning</span>. 🤝 If these interests resonate with you, feel free to reach out—I'm always open to collaboration!
+I am a Master's student in <span class="blue-text">Artificial Intelligence</span> at <span class="blue-text">Yonsei University</span>, advised by Professor <span class="blue-text">Albert No</span>, with a research focus on robust large language models.
 
 <hr>
 <h2>News</h2>
 <ul>
-  <li><b>Sep 2025:</b> Our paper SAFEPATH: <span>Preventing Harmful Reasoning in Chain-of-Thought via Early Alignment</span> has been accepted. See you in San Diego 🇺🇸! </li>
-  <li><b>Aug 2025:</b> Two unlearning papers (<span>R-TOFU</span> and <span>SEPS</span>) have been accepted to EMNLP 2025 Main. See you in China 🇨🇳! </li>
-  <li><b>May 2025:</b> Four new papers are now on arXiv! These include work on safety alignment in reasoning models (<span>SAFEPATH</span>), unlearning benchmarks (<span>DUSK</span> and <span>R-TOFU</span>), and unlearning fragility (<span>SEPS</span>).</li>
-  <li><b>Dec 2024:</b> Our paper on sample-based privacy auditing for final model-only scenarios will appear at the NeurIPS 2024 SFLLM Workshop in Canada 🇨🇦!</li>
+  <li><b>Jan 2026:</b> Two first author papers have been accepted to ICLR 2026. See you in Rio 🇧🇷!  </li>
+  <li><b>Sep 2025:</b> One paper has been accepted to NeurIPS 2025. See you in San Diego 🇺🇸! </li>
+  <li><b>Sep 2025:</b> I will join EXAONE Lab at LG AI Research as a Research Intern. </li>  
+  <li><b>Aug 2025:</b> Two first author papers have been accepted to EMNLP 2025 Main. See you in Suzhou 🇨🇳! </li>
+  <li><b>Dec 2024:</b> One first author paper has been accepted to NeurIPS 2024 SFLLM Workshop.</li>
 </ul>
