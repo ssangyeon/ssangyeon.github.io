@@ -1,7 +1,17 @@
 [
     {
+        "title": "BenchPreS: A Benchmark for Context-Aware Personalized Preference Selectivity of Persistent-Memory LLMs",
+        "authors": "Sangyeon Yoon, Sunkyoung Kim, Hyesoo Hong, Wonje Jeung, Yongil Kim, Wooseok Seo, Heuiyeen Yeen, and Albert No",
+        "venue": "arxiv",
+        "status": "UNDER REVIEW",
+        "year": 2026,
+        "pdf": false,
+        "selected": false,
+        "desc": ""
+      },
+    {
         "title": "Position: The Term “Machine Unlearning” Is Overused in LLMs",
-        "authors": "Sangyeon Yoon*, Yeachan Jun*, Albert No",
+        "authors": "Sangyeon Yoon*, Yeachan Jun*, and Albert No",
         "venue": "arxiv",
         "status": "UNDER REVIEW",
         "year": 2026,
