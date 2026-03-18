@@ -5,7 +5,7 @@
         "venue": "arxiv",
         "status": "UNDER REVIEW",
         "year": 2026,
-        "pdf": false,
+        "pdf_url": "https://arxiv.org/abs/2603.16557",
         "selected": false,
         "desc": ""
       },
@@ -15,7 +15,7 @@
         "venue": "arxiv",
         "status": "UNDER REVIEW",
         "year": 2026,
-        "pdf": false,
+        "pdf_url": false,
         "selected": false,
         "desc": ""
       },
