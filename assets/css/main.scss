@@ -42,15 +42,8 @@
     "vendor/magnific-popup/magnific-popup"
 ;
 
----
-# Only the main Sass file needs front matter
----
+/* 여기부터 커스텀 CSS 추가 */
 
-@charset "utf-8";
-
-@import "minimal-mistakes";
-
-/* 여기 아래부터 네 커스텀 CSS 추가 */
 .research-entry {
   margin-bottom: 1.2rem;
   line-height: 1.8;
