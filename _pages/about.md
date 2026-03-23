@@ -38,7 +38,7 @@ Mentor: [Sunkyoung Kim](#)
 </p>
 
 <p>
-  <strong>Position: The Term “Machine Unlearning” Is Overused in LLMs</strong><br>
+  <strong><a href="https://www.arxiv.org/">Position: The Term “Machine Unlearning” Is Overused in LLMs</strong><br>
   <strong>Sangyeon Yoon</strong>*, Yeachan Jun*, and Albert No<br>
   <em>Submitted</em>
 </p>
