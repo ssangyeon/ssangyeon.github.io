@@ -16,7 +16,7 @@ I am interested in how large language models understand data and how we can make
 
 - **Robustness and evaluation:** I study failure modes that are often overlooked by standard benchmarks, and develop evaluation protocols that better capture hidden behaviors, realistic risks, and model reliability in practice.
 - **Understanding LLMs:** I am interested in how language models absorb, represent, and use knowledge, and in what their reasoning processes reveal about their underlying behavior.
-- 
+
 ## News
 
 - **Jan 2026:** Two papers were accepted to ICLR 2026. See you in Rio 🇧🇷!
