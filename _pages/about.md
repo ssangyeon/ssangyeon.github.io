@@ -42,7 +42,6 @@ I am interested in how large language models understand data and how we can make
 <hr>
 
 ## Publications
-
 <p><em>(* indicates equal contribution)</em></p>
 
 ## Preprints
