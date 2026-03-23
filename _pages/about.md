@@ -29,75 +29,79 @@ Mentor: [Sunkyoung Kim](#)
 
 (* indicates equal contribution)
 
-<div class="about-pubs">
+### Under Review
 
-  <p>
-    <strong>Rethinking Benign Relearning: Syntax as the Hidden Driver of Unlearning Failures</strong><br>
-    Sangyeon Yoon, Hyesoo Hong, Wonje Jeung, and Albert No<br>
-    <em>ICLR 2026</em><br>
-    <a href="https://openreview.net/forum?id=IU4rqTlpRb">[Paper]</a>
-  </p>
+<p>
+  <strong>BenchPreS: A Benchmark for Context-Aware Personalized Preference Selectivity of Persistent-Memory LLMs</strong><br>
+  <strong>Sangyeon Yoon</strong>, Sunkyoung Kim, Hyesoo Hong, Wonje Jeung, Yongil Kim, Wooseok Seo, Heuiyeen Yeen, and Albert No<br>
+  <em>Under Review, 2026</em><br>
+  <a href="https://arxiv.org/abs/2603.16557">[Paper]</a>
+</p>
 
-  <p>
-    <strong>A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models</strong><br>
-    Wonje Jeung*, Sangyeon Yoon*, Yoonjun Cho, Dongjae Jeon, Sangwoo Shin, Hyesoo Hong, and Albert No<br>
-    <em>ICLR 2026</em><br>
-    <a href="https://openreview.net/forum?id=URTnuyQJI1">[Paper]</a>
-  </p>
+<p>
+  <strong>Position: The Term “Machine Unlearning” Is Overused in LLMs</strong><br>
+  <strong>Sangyeon Yoon</strong>*, Yeachan Jun*, and Albert No<br>
+  <em>Under Review, 2026</em>
+</p>
 
-  <p>
-    <strong>R-TOFU: Unlearning in Large Reasoning Models</strong><br>
-    Sangyeon Yoon, Wonje Jeung, and Albert No<br>
-    <em>EMNLP 2025 Main</em><br>
-    <a href="https://aclanthology.org/2025.emnlp-main.265/">[Paper]</a>
-  </p>
+<p>
+  <strong>DUSK: Do not unlearn shared knowledge</strong><br>
+  Wonje Jeung*, <strong>Sangyeon Yoon</strong>*, Hyesoo Hong*, Soeun Kim, Seungju Han, Youngjae Yu, and Albert No<br>
+  <em>Under Review, 2025</em><br>
+  <a href="https://www.arxiv.org/abs/2505.15209">[Paper]</a>
+</p>
 
-  <p>
-    <strong>SEPS: A Separability Measure for Robust Unlearning in LLMs</strong><br>
-    Wonje Jeung*, Sangyeon Yoon*, and Albert No<br>
-    <em>EMNLP 2025 Main</em><br>
-    <a href="https://aclanthology.org/2025.emnlp-main.283/">[Paper]</a>
-  </p>
+### Technical Reports
 
-  <p>
-    <strong>SAFEPATH: Preventing Harmful Reasoning in Chain-of-Thought via Early Alignment</strong><br>
-    Wonje Jeung, Sangyeon Yoon, Minsuk Kang, and Albert No<br>
-    <em>NeurIPS 2025</em><br>
-    <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/115425">[Paper]</a>
-  </p>
+<p>
+  <strong>K-EXAONE Technical Report: Journey to Frontier-Level Performance of Foundation Models</strong><br>
+  LG AI Research<br>
+  <em>Technical Report, 2026</em><br>
+  <a href="https://www.lgresearch.ai/data/cdn/upload/K-EXAONE_Technical_Report.pdf">[PDF]</a>
+</p>
 
-  <p>
-    <strong>Adversarial Sample-Based Approach for Tighter Privacy Auditing in Final Model-Only Scenarios</strong><br>
-    Sangyeon Yoon*, Wonje Jeung*, and Albert No<br>
-    <em>NeurIPS 2024 SFLLM Workshop</em><br>
-    <a href="https://neurips.cc/virtual/2024/107876">[Paper]</a>
-  </p>
+### Peer-reviewed Conference
 
-  <p>
-    <strong>BenchPreS: A Benchmark for Context-Aware Personalized Preference Selectivity of Persistent-Memory LLMs</strong><br>
-    Sangyeon Yoon, Sunkyoung Kim, Hyesoo Hong, Wonje Jeung, Yongil Kim, Wooseok Seo, Heuiyeen Yeen, and Albert No<br>
-    <em>Under Review, 2026</em><br>
-    <a href="https://arxiv.org/abs/2603.16557">[Paper]</a>
-  </p>
+<p>
+  <strong>Rethinking Benign Relearning: Syntax as the Hidden Driver of Unlearning Failures</strong><br>
+  <strong>Sangyeon Yoon</strong>, Hyesoo Hong, Wonje Jeung, and Albert No<br>
+  <em>ICLR 2026</em><br>
+  <a href="https://openreview.net/forum?id=IU4rqTlpRb">[Paper]</a>
+</p>
 
-  <p>
-    <strong>Position: The Term “Machine Unlearning” Is Overused in LLMs</strong><br>
-    Sangyeon Yoon*, Yeachan Jun*, and Albert No<br>
-    <em>Under Review, 2026</em>
-  </p>
+<p>
+  <strong>A2D: Any-Order, Any-Step Safety Alignment for Diffusion Language Models</strong><br>
+  Wonje Jeung*, <strong>Sangyeon Yoon</strong>*, Yoonjun Cho, Dongjae Jeon, Sangwoo Shin, Hyesoo Hong, and Albert No<br>
+  <em>ICLR 2026</em><br>
+  <a href="https://openreview.net/forum?id=URTnuyQJI1">[Paper]</a>
+</p>
 
-  <p>
-    <strong>DUSK: Do not unlearn shared knowledge</strong><br>
-    Wonje Jeung*, Sangyeon Yoon*, Hyesoo Hong*, Soeun Kim, Seungju Han, Youngjae Yu, and Albert No<br>
-    <em>Under Review, 2025</em><br>
-    <a href="https://www.arxiv.org/abs/2505.15209">[Paper]</a>
-  </p>
+<p>
+  <strong>R-TOFU: Unlearning in Large Reasoning Models</strong><br>
+  <strong>Sangyeon Yoon</strong>, Wonje Jeung, and Albert No<br>
+  <em>EMNLP 2025 Main</em><br>
+  <a href="https://aclanthology.org/2025.emnlp-main.265/">[Paper]</a>
+</p>
 
-  <p>
-    <strong>K-EXAONE Technical Report: Journey to Frontier-Level Performance of Foundation Models</strong><br>
-    LG AI Research<br>
-    <em>Technical Report, 2026</em><br>
-    <a href="https://www.lgresearch.ai/data/cdn/upload/K-EXAONE_Technical_Report.pdf">[PDF]</a>
-  </p>
+<p>
+  <strong>SEPS: A Separability Measure for Robust Unlearning in LLMs</strong><br>
+  Wonje Jeung*, <strong>Sangyeon Yoon</strong>*, and Albert No<br>
+  <em>EMNLP 2025 Main</em><br>
+  <a href="https://aclanthology.org/2025.emnlp-main.283/">[Paper]</a>
+</p>
 
-</div>
+<p>
+  <strong>SAFEPATH: Preventing Harmful Reasoning in Chain-of-Thought via Early Alignment</strong><br>
+  Wonje Jeung, <strong>Sangyeon Yoon</strong>, Minsuk Kang, and Albert No<br>
+  <em>NeurIPS 2025</em><br>
+  <a href="https://neurips.cc/virtual/2025/loc/san-diego/poster/115425">[Paper]</a>
+</p>
+
+### Peer-reviewed Workshop
+
+<p>
+  <strong>Adversarial Sample-Based Approach for Tighter Privacy Auditing in Final Model-Only Scenarios</strong><br>
+  <strong>Sangyeon Yoon</strong>*, Wonje Jeung*, and Albert No<br>
+  <em>NeurIPS 2024 SFLLM Workshop</em><br>
+  <a href="https://neurips.cc/virtual/2024/107876">[Paper]</a>
+</p>
