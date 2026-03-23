@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Sangyeon Yoon, a Master student in Artificial Intelligence at Yonsei University, advised by Prof. Albert No. 
+Hi! I'm a Master student in Artificial Intelligence at Yonsei University, advised by Prof. Albert No. 
 
 ## Research Interests
 
