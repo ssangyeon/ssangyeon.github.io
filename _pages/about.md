@@ -22,5 +22,5 @@ I am a Master student in Artificial Intelligence at Yonsei University, advised b
 
 **LG AI Research, EXAONE Lab**  
 Research Intern  
-Mentor: [Seokhee Hong](#)  
+Mentor: [Sunkyoung Kim](#)  
 *Seoul, South Korea | Sep 2025 ~ Feb 2026*
