@@ -1,24 +1,21 @@
-<script src="{{ base_path }}/assets/js/main.min.js"></script>
-
 <!-- Dark mode 강제 비활성화 (테마 토글 버튼 제거 + light 고정) -->
 <script>
   (function () {
-    try {
-      // main.min.js가 DOM ready 시점에 theme을 읽으므로, 미리 light로 고정합니다.
-      localStorage.setItem("theme", "light");
-    } catch (e) {}
-
-    // 혹시 HTML 초기 렌더에서 data-theme="dark"가 걸려 있으면 즉시 제거합니다.
-    try {
-      document.documentElement.removeAttribute("data-theme");
-    } catch (e) {}
-
-    // 혹시 남아있을 수 있는 토글 엘리먼트를 제거해 클릭/이벤트 결합 자체를 막습니다.
+    try { localStorage.setItem("theme", "light"); } catch (e) {}
+    try { document.documentElement.removeAttribute("data-theme"); } catch (e) {}
     try {
       var el = document.getElementById("theme-toggle");
       if (el && el.parentNode) el.parentNode.removeChild(el);
     } catch (e) {}
   })();
+</script>
+
+<script src="{{ base_path }}/assets/js/main.min.js"></script>
+
+<!-- main.min.js 실행 후에도 혹시 모를 dark 재적용을 한번 더 방지 -->
+<script>
+  try { localStorage.setItem("theme", "light"); } catch (e) {}
+  try { document.documentElement.removeAttribute("data-theme"); } catch (e) {}
 </script>
 
 {% include analytics.html %}
