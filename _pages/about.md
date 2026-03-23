@@ -12,12 +12,11 @@ Hi! I'm Sangyeon Yoon, a Master student in Artificial Intelligence at Yonsei Uni
 
 ## Research Interests
 
-I am interested in how to make large language models more reliable in practice, with a focus on robustness and evaluation.
+I am interested in how large language models understand data and how we can make them more reliable in practice.
 
-
-- **Robustness and evaluation:** How can we evaluate LLMs beyond surface-level accuracy? I study model behavior under distribution shifts and constraints, and design evaluation protocols that capture realistic failure modes, hidden behaviors, and the reliability of outputs in real-world settings.
-- **Understanding LLMs:** How do language models reason, and to what extent do their reasoning processes reflect their true internal behavior? I am interested in generalization to novel settings, the representation of abstract concepts, and when reasoning traces are faithful or misleading.
-
+- **Robustness and evaluation:** I study failure modes that are often overlooked by standard benchmarks, and develop evaluation protocols that better capture hidden behaviors, realistic risks, and model reliability in practice.
+- **Understanding LLMs:** I am interested in how language models absorb, represent, and use knowledge, and in what their reasoning processes reveal about their underlying behavior.
+- 
 ## News
 
 - **Jan 2026:** Two papers were accepted to ICLR 2026. See you in Rio 🇧🇷!
