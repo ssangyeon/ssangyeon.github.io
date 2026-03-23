@@ -10,12 +10,16 @@ redirect_from:
 
 Hi! I'm a Master student in Artificial Intelligence at Yonsei University, advised by Prof. Albert No. 
 
+<hr>
+
 # Research Interests
 
 I am interested in how large language models understand data and how we can make them more reliable in practice.
 
 - **Robustness and evaluation:** I study failure modes that are often overlooked by standard benchmarks, and develop evaluation protocols that better capture hidden behaviors, realistic risks, and model reliability in practice.
 - **Understanding LLMs:** I am interested in how language models absorb, represent, and use knowledge, and in what their reasoning processes reveal about their underlying behavior.
+
+<hr>
 
 # News
 
@@ -25,6 +29,8 @@ I am interested in how large language models understand data and how we can make
 - **Aug 2025:** Two papers were accepted to EMNLP 2025 Main. See you in Suzhou 🇨🇳!
 - **Dec 2024:** One paper was accepted to the NeurIPS 2024 SFLLM Workshop.
 
+<hr>
+
 # Research Experience
 
 <div class="research-entry">
@@ -32,6 +38,8 @@ I am interested in how large language models understand data and how we can make
   <em>Research Intern, Sep 2025 – Feb 2026</em><br>
   Mentor: <a href="#">Sunkyoung Kim</a>
 </div>
+
+<hr>
 
 # Publications
 
