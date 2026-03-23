@@ -42,19 +42,19 @@ I am interested in how large language models understand data and how we can make
 <div class="pub-entry">
   <strong><a href="https://arxiv.org/abs/2603.16557">BenchPreS: A Benchmark for Context-Aware Personalized Preference Selectivity of Persistent-Memory LLMs</a></strong><br>
   <strong>Sangyeon Yoon</strong>, Sunkyoung Kim, Hyesoo Hong, Wonje Jeung, Yongil Kim, Wooseok Seo, Heuiyeen Yeen, and Albert No<br>
-  <em>Submitted</em>
+  <!-- <em>Submitted</em> -->
 </div>
 
 <div class="pub-entry">
   <strong><a href="https://arxiv.org/">Position: The Term “Machine Unlearning” Is Overused in LLMs</a></strong><br>
   <strong>Sangyeon Yoon</strong>*, Yeachan Jun*, and Albert No<br>
-  <em>Submitted</em>
+  <!-- <em>Submitted</em> -->
 </div>
 
 <div class="pub-entry">
   <strong><a href="https://www.arxiv.org/abs/2505.15209">DUSK: Do not unlearn shared knowledge</a></strong><br>
   Wonje Jeung*, <strong>Sangyeon Yoon</strong>*, Hyesoo Hong*, Soeun Kim, Seungju Han, Youngjae Yu, and Albert No<br>
-  <em>Submitted</em>
+  <!-- <em>Submitted</em> -->
 </div>
 
 <hr>
