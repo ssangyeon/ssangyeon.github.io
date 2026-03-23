@@ -8,15 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Sangyeon Yoon, a Master student in Artificial Intelligence at [Yonsei University](https://yonsei.ac.kr), advised by Prof. Albert No. My research focuses on robust and trustworthy large language models, particularly in machine unlearning, reasoning behavior, safety, and evaluation.
+Hi! I'm Sangyeon Yoon, a Master student in Artificial Intelligence at Yonsei University, advised by Prof. Albert No. My research focuses on robust and trustworthy large language models, particularly in machine unlearning, reasoning behavior, safety, and evaluation.
 
 ## News
 
-- **Jan 2026:** Two first-author papers were accepted to ICLR 2026. See you in Rio 🇧🇷!
+- **Jan 2026:** Two papers were accepted to ICLR 2026. See you in Rio 🇧🇷!
 - **Sep 2025:** One paper was accepted to NeurIPS 2025. See you in San Diego 🇺🇸!
 - **Sep 2025:** Joined EXAONE Lab at LG AI Research as a Research Intern.
-- **Aug 2025:** Two first-author papers were accepted to EMNLP 2025 Main. See you in Suzhou 🇨🇳!
-- **Dec 2024:** One first-author paper was accepted to the NeurIPS 2024 SFLLM Workshop.
+- **Aug 2025:** Two papers were accepted to EMNLP 2025 Main. See you in Suzhou 🇨🇳!
+- **Dec 2024:** One paper was accepted to the NeurIPS 2024 SFLLM Workshop.
 
 ## Research Experience
 
