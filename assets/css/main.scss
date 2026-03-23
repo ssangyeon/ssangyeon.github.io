@@ -81,9 +81,16 @@
   font-size: 0.98rem;
 }
 
+html,
 body,
+.layout--single,
 .initial-content,
+#main,
 .page,
-.page__content {
-  background-color: #fff4e6;
+.page__inner-wrap,
+.page__content,
+.sidebar,
+.author__content,
+.author__urls-wrapper {
+  background: #fff4e6 !important;
 }
