@@ -12,7 +12,7 @@ Hi! I'm a Master student in Artificial Intelligence at Yonsei University, advise
 
 <hr>
 
-# Research Interests
+## Research Interests
 
 I am interested in how large language models understand data and how we can make them more reliable in practice.
 
@@ -21,7 +21,7 @@ I am interested in how large language models understand data and how we can make
 
 <hr>
 
-# News
+## News
 
 - **Jan 2026:** Two papers were accepted to ICLR 2026. See you in Rio 🇧🇷!
 - **Sep 2025:** One paper was accepted to NeurIPS 2025. See you in San Diego 🇺🇸!
@@ -31,7 +31,7 @@ I am interested in how large language models understand data and how we can make
 
 <hr>
 
-# Research Experience
+## Research Experience
 
 <div class="research-entry">
   <strong>LG AI Research, EXAONE Lab</strong><br>
@@ -41,7 +41,7 @@ I am interested in how large language models understand data and how we can make
 
 <hr>
 
-# Publications
+## Publications
 
 <p><em>(* indicates equal contribution)</em></p>
 
