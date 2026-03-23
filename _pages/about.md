@@ -1,18 +1,12 @@
 ---
 permalink: /
+title: "Sangyeon Yoon"
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-<style>
-  /* 필요한 다른 CSS 스타일이 있다면 여기에 추가하세요 */
-
-  .blue-text {
-    color: #007bff; /* 원하는 파란색 Hex Code로 변경 가능 */
-  }
-</style>
 
 I am a Master student in Artificial Intelligence at Yonsei University, advised by Professor Albert No, with a research focus on robust large language models.
 
