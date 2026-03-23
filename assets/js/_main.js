@@ -4,25 +4,19 @@
 
 $(document).ready(function () {
   // detect OS/browser preference
-  const browserPref = window.matchMedia('(prefers-color-scheme: dark)').matches
-    ? 'dark'
-    : 'light';
+  // 이 사이트는 사용자가 다크모드를 켤 수 없도록 기본값을 light로 고정합니다.
+  const browserPref = "light";
 
   // Set the theme on page load or when explicitly called
   var setTheme = function (theme) {
-    const use_theme =
-      theme ||
-      localStorage.getItem("theme") ||
-      $("html").attr("data-theme") ||
-      browserPref;
+    // 사용자가 준 theme/localStorage/data-theme가 무엇이든 항상 light로 강제
+    $("html").removeAttr("data-theme");
+    $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
 
-    if (use_theme === "dark") {
-      $("html").attr("data-theme", "dark");
-      $("#theme-icon").removeClass("fa-sun").addClass("fa-moon");
-    } else if (use_theme === "light") {
-      $("html").removeAttr("data-theme");
-      $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
-    }
+    // 다음 페이지/탭에서도 light 유지
+    try {
+      localStorage.setItem("theme", "light");
+    } catch (e) {}
   };
 
   setTheme();
@@ -31,17 +25,15 @@ $(document).ready(function () {
   window
     .matchMedia('(prefers-color-scheme: dark)')
     .addEventListener("change", (e) => {
-      if (!localStorage.getItem("theme")) {
-        setTheme(e.matches ? "dark" : "light");
-      }
+      // OS 변화에도 항상 light를 유지
+      setTheme("light");
     });
 
   // Toggle the theme manually
   var toggleTheme = function () {
-    const current_theme = $("html").attr("data-theme");
-    const new_theme = current_theme === "dark" ? "light" : "dark";
-    localStorage.setItem("theme", new_theme);
-    setTheme(new_theme);
+    // 토글 자체를 비활성화(항상 light)
+    localStorage.setItem("theme", "light");
+    setTheme("light");
   };
 
   $('#theme-toggle').on('click', toggleTheme);
