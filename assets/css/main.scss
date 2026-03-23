@@ -36,10 +36,50 @@
     "layout/archive",
     "layout/sidebar",
 
-    "custom",
-
     "vendor/font-awesome/fontawesome",
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
+
+/* 여기부터 커스텀 CSS 추가 */
+
+.research-entry {
+  margin-bottom: 1.2rem;
+  line-height: 1.8;
+}
+
+.pub-entry {
+  margin-bottom: 1.4rem;
+  line-height: 1.8;
+}
+
+.pub-entry strong a {
+  color: #111;
+  text-decoration: none;
+}
+
+.pub-entry strong a:hover { color: #4f46e5; }
+
+.page__content h3 {
+  margin-top: 1.6rem;
+  margin-bottom: 0.8rem;
+  font-weight: 700;
+}
+
+.page__content hr {
+  margin-top: 2rem;
+  margin-bottom: 1.5rem;
+  border: 0;
+  border-top: 1px solid #ddd;
+}
+
+.page__content p,
+.page__content li,
+.pub-entry,
+.research-entry {
+  font-size: 0.98rem;
+}
+body {
+  background-color: #fff4e6;
+}
