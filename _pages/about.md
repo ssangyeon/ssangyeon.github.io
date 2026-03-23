@@ -19,3 +19,13 @@ I am a Master student in Artificial Intelligence at Yonsei University, advised b
   <li><b>Aug 2025:</b> Two first author papers have been accepted to EMNLP 2025 Main. See you in Suzhou 🇨🇳! </li>
   <li><b>Dec 2024:</b> One first author paper has been accepted to NeurIPS 2024 SFLLM Workshop.</li>
 </ul>
+
+<hr>
+<h2>Research Experience</h2>
+
+<p>
+  <b>LG AI Research, EXAONE Lab</b><br>
+  Research Intern<br>
+  Mentor: <a href="#">Sunkyoung Kim</a><br>
+  <i>Seoul, South Korea | Sep 2025 ~ Feb 2026</i>
+</p>
