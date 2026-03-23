@@ -8,7 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-Hi! I'm Sangyeon Yoon, a Master student in Artificial Intelligence at Yonsei University, advised by Prof. Albert No. My research focuses on robust and trustworthy large language models, particularly in machine unlearning, reasoning behavior, safety, and evaluation.
+Hi! I'm Sangyeon Yoon, a Master student in Artificial Intelligence at Yonsei University, advised by Prof. Albert No. 
+
+<details>
+<summary><b>Research Interests</b></summary>
+
+<br>
+
+I am interested in how large language models work and how to make them more reliable in practice, with a particular focus on robustness and evaluation. More specifically, I study how models reason, how they generalize to new settings, and how we can build evaluation protocols that better capture realistic failure modes, hidden behaviors, and the reliability of model outputs in real-world settings.
+
+</details>
 
 ## News
 
