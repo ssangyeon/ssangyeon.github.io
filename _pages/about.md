@@ -10,22 +10,17 @@ redirect_from:
 
 I am a Master student in Artificial Intelligence at Yonsei University, advised by Professor Albert No, with a research focus on robust large language models.
 
-<hr>
-<h2>News</h2>
-<ul>
-  <li><b>Jan 2026:</b> Two first author papers have been accepted to ICLR 2026. See you in Rio 🇧🇷!  </li>
-  <li><b>Sep 2025:</b> One paper has been accepted to NeurIPS 2025. See you in San Diego 🇺🇸! </li>
-  <li><b>Sep 2025:</b> I will join EXAONE Lab at LG AI Research as a Research Intern. </li>  
-  <li><b>Aug 2025:</b> Two first author papers have been accepted to EMNLP 2025 Main. See you in Suzhou 🇨🇳! </li>
-  <li><b>Dec 2024:</b> One first author paper has been accepted to NeurIPS 2024 SFLLM Workshop.</li>
-</ul>
+## News
 
-<hr>
-<h2>Research Experience</h2>
+- **Jan 2026:** Two first author papers have been accepted to ICLR 2026. See you in Rio 🇧🇷!
+- **Sep 2025:** One paper has been accepted to NeurIPS 2025. See you in San Diego 🇺🇸!
+- **Sep 2025:** I will join EXAONE Lab at LG AI Research as a Research Intern.
+- **Aug 2025:** Two first author papers have been accepted to EMNLP 2025 Main. See you in Suzhou 🇨🇳!
+- **Dec 2024:** One first author paper has been accepted to NeurIPS 2024 SFLLM Workshop.
 
-<p>
-  <b>LG AI Research, EXAONE Lab</b><br>
-  Research Intern<br>
-  Mentor: <a href="#">Sunkyoung Kim</a><br>
-  <i>Seoul, South Korea | Sep 2025 ~ Feb 2026</i>
-</p>
+## Research Experience
+
+**LG AI Research, EXAONE Lab**  
+Research Intern  
+Mentor: [Seokhee Hong](#)  
+*Seoul, South Korea | Sep 2025 ~ Feb 2026*
