@@ -5,7 +5,7 @@
  * This file controls what is imported from /_sass
  *
  * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
+ * sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
 @import
@@ -42,7 +42,7 @@
     "vendor/magnific-popup/magnific-popup"
 ;
 
-/* 여기부터 커스텀 CSS 추가 */
+/* Custom styles */
 
 .research-entry {
   margin-bottom: 1.2rem;
@@ -59,7 +59,10 @@
   text-decoration: none;
 }
 
-.pub-entry strong a:hover { color: #4f46e5; }
+.pub-entry strong a:hover {
+  color: #4f46e5;
+  text-decoration: underline;
+}
 
 .page__content h3 {
   margin-top: 1.6rem;
@@ -80,6 +83,38 @@
 .research-entry {
   font-size: 0.98rem;
 }
-body {
-  background-color: #fff4e6;
+
+/* Dark mode override only */
+html[data-theme="dark"],
+html[data-theme="dark"] body,
+html[data-theme="dark"] .layout--single,
+html[data-theme="dark"] .initial-content,
+html[data-theme="dark"] #main,
+html[data-theme="dark"] .page,
+html[data-theme="dark"] .page__inner-wrap,
+html[data-theme="dark"] .page__content,
+html[data-theme="dark"] .sidebar,
+html[data-theme="dark"] .masthead,
+html[data-theme="dark"] .greedy-nav,
+html[data-theme="dark"] .author__content,
+html[data-theme="dark"] .author__urls-wrapper {
+  background: #000 !important;
+  color: #fff !important;
+}
+
+html[data-theme="dark"] a {
+  color: #fff !important;
+}
+
+html[data-theme="dark"] .pub-entry strong a {
+  color: #fff !important;
+}
+
+html[data-theme="dark"] .pub-entry strong a:hover {
+  color: #c7d2fe !important;
+  text-decoration: underline;
+}
+
+html[data-theme="dark"] .page__content hr {
+  border-top: 1px solid #444 !important;
 }
