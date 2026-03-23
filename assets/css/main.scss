@@ -42,24 +42,94 @@
     "vendor/magnific-popup/magnific-popup"
 ;
 
-/* 여기부터 커스텀 CSS 추가 */
+/* =========================
+   Custom Design
+========================= */
 
+/* Color palette */
+$bg-main: #fdf7ee;
+$bg-card: #fffdf9;
+$bg-soft: #f6efe4;
+$text-main: #2b251f;
+$text-soft: #5f574f;
+$heading: #1f1a17;
+$line: #e7dccd;
+$accent: #5b5bd6;
+$accent-dark: #4343b8;
+$accent-soft: #eeecff;
+
+/* Global background */
+html,
+body {
+  background-color: $bg-main !important;
+  color: $text-main;
+}
+
+/* Main areas */
+.layout--single,
+.initial-content,
+#main,
+.page,
+.page__inner-wrap {
+  background-color: transparent !important;
+}
+
+/* Main content card */
+.page__content {
+  background: $bg-card;
+  border: 1px solid $line;
+  border-radius: 18px;
+  padding: 1.8rem 2rem;
+  box-shadow: 0 10px 30px rgba(60, 40, 10, 0.06);
+}
+
+/* Sidebar card */
+.sidebar {
+  background: transparent !important;
+}
+
+.author__content,
+.author__urls-wrapper {
+  background: $bg-card !important;
+  border: 1px solid $line;
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 8px 24px rgba(60, 40, 10, 0.05);
+}
+
+/* Typography */
+body,
+.page__content p,
+.page__content li,
+.pub-entry,
 .research-entry {
-  margin-bottom: 1.2rem;
+  font-size: 0.98rem;
   line-height: 1.8;
+  color: $text-main;
 }
 
-.pub-entry {
-  margin-bottom: 1.4rem;
-  line-height: 1.8;
+.page__content strong,
+.page__content b {
+  color: $heading;
+  font-weight: 700;
 }
 
-.pub-entry strong a {
-  color: #111;
-  text-decoration: none;
+.page__content h1,
+.page__content h2,
+.page__content h3,
+.page__content h4,
+.page__content h5 {
+  color: $heading;
+  font-weight: 800;
+  letter-spacing: -0.02em;
 }
 
-.pub-entry strong a:hover { color: #4f46e5; }
+.page__content h2 {
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 2px solid $bg-soft;
+}
 
 .page__content h3 {
   margin-top: 1.6rem;
@@ -67,30 +137,179 @@
   font-weight: 700;
 }
 
+/* Links */
+a {
+  color: $accent;
+  text-decoration: none;
+  transition: all 0.18s ease;
+}
+
+a:hover {
+  color: $accent-dark;
+  text-decoration: underline;
+}
+
+.pub-entry strong a {
+  color: $heading;
+  text-decoration: none;
+}
+
+.pub-entry strong a:hover {
+  color: $accent;
+}
+
+/* Section spacing */
+.research-entry {
+  margin-bottom: 1.2rem;
+}
+
+.pub-entry {
+  margin-bottom: 1.4rem;
+}
+
 .page__content hr {
   margin-top: 2rem;
   margin-bottom: 1.5rem;
   border: 0;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid $line;
 }
 
-.page__content p,
-.page__content li,
-.pub-entry,
-.research-entry {
-  font-size: 0.98rem;
+/* Lists */
+.page__content ul li,
+.page__content ol li {
+  margin-bottom: 0.45rem;
 }
 
-html,
-body,
-.layout--single,
-.initial-content,
-#main,
-.page,
-.page__inner-wrap,
-.page__content,
-.sidebar,
-.author__content,
-.author__urls-wrapper {
-  background: #fff4e6 !important;
+/* Blockquote / note style */
+.page__content blockquote {
+  border-left: 4px solid $accent;
+  background: $accent-soft;
+  padding: 0.9rem 1rem;
+  border-radius: 10px;
+  color: $text-main;
+}
+
+/* Table style */
+.page__content table {
+  border: 1px solid $line;
+  border-radius: 12px;
+  overflow: hidden;
+  background: $bg-card;
+}
+
+.page__content table th {
+  background: $bg-soft;
+  color: $heading;
+  border-color: $line;
+}
+
+.page__content table td {
+  border-color: $line;
+}
+
+/* Buttons */
+.btn,
+.page__content .btn {
+  background: $accent;
+  color: #fff !important;
+  border-radius: 10px;
+  border: none;
+  padding: 0.55rem 0.95rem;
+  transition: background 0.18s ease, transform 0.18s ease;
+}
+
+.btn:hover,
+.page__content .btn:hover {
+  background: $accent-dark;
+  transform: translateY(-1px);
+  text-decoration: none;
+}
+
+/* News scroll box */
+.news-box {
+  max-height: 220px;
+  overflow-y: auto;
+  padding: 1rem 1.1rem;
+  margin-top: 0.8rem;
+  margin-bottom: 1.2rem;
+  background: $bg-soft;
+  border: 1px solid $line;
+  border-radius: 14px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.7);
+}
+
+.news-box ul {
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+.news-box li {
+  margin-bottom: 0.7rem;
+  color: $text-main;
+}
+
+.news-box strong {
+  color: $heading;
+}
+
+/* Scrollbar */
+.news-box::-webkit-scrollbar {
+  width: 10px;
+}
+
+.news-box::-webkit-scrollbar-track {
+  background: #efe4d3;
+  border-radius: 10px;
+}
+
+.news-box::-webkit-scrollbar-thumb {
+  background: #ccb99f;
+  border-radius: 10px;
+}
+
+.news-box::-webkit-scrollbar-thumb:hover {
+  background: #b59d7f;
+}
+
+/* Author name / profile emphasis */
+.author__name,
+.author__bio,
+.author__urls li a {
+  color: $text-main !important;
+}
+
+.author__urls li a:hover {
+  color: $accent !important;
+}
+
+/* Masthead refinement */
+.masthead,
+.greedy-nav {
+  background: rgba(253, 247, 238, 0.92) !important;
+  border-bottom: 1px solid $line;
+}
+
+.greedy-nav a {
+  color: $text-main !important;
+}
+
+.greedy-nav a:hover {
+  color: $accent !important;
+}
+
+/* Mobile spacing */
+@media (max-width: 768px) {
+  .page__content {
+    padding: 1.25rem 1rem;
+    border-radius: 14px;
+  }
+
+  .author__content,
+  .author__urls-wrapper {
+    border-radius: 12px;
+  }
+
+  .news-box {
+    max-height: 180px;
+  }
 }
