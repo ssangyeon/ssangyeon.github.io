@@ -32,6 +32,7 @@ I am interested in how large language models understand data and how we can make
   <em>Research Intern, Sep 2025 – Feb 2026</em><br>
   Mentor: <a href="#">Sunkyoung Kim</a>
 </div>
+
 ## Publications
 
 <p><em>(* indicates equal contribution)</em></p>
