@@ -12,13 +12,24 @@
     {
         "title": "Position: The Term “Machine Unlearning” Is Overused in LLMs",
         "authors": "Sangyeon Yoon*, Yeachan Jun*, and Albert No",
-        "venue": "arxiv",
-        "status": "UNDER REVIEW",
+        "venue": "ICML",
+        "status": "",
         "year": 2026,
         "pdf_url": false,
         "selected": false,
         "desc": ""
       },
+    {
+      "title": "DUSK: Do not unlearn shared knowledge",
+      "authors": "Wonje Jeung*, Sangyeon Yoon*, Hyesoo Hong*, Soeun Kim, Seungju Han, Youngjae Yu, and Albert No",
+      "venue": "ACL",
+      "status": "Findings",
+      "year": 2026,
+      "pdf": true,
+      "selected": false,
+      "pdf_url": "https://www.arxiv.org/abs/2505.15209",
+      "desc": ""
+    },
     {
         "title": "K-EXAONE Technical Report: Journey to Frontier-Level Performance of Foundation Models",
         "authors": "LG AI Research",
@@ -28,6 +39,17 @@
         "pdf": true,
         "selected": false,
         "pdf_url": "https://www.lgresearch.ai/data/cdn/upload/K-EXAONE_Technical_Report.pdf",
+        "desc": ""
+      },
+    {
+        "title": "EXAONE 4.5 Technical Report",
+        "authors": "LG AI Research",
+        "venue": "Technical Report",
+        "status": "",
+        "year": 2026,
+        "pdf": true,
+        "selected": false,
+        "pdf_url": "https://arxiv.org/abs/2604.08644",
         "desc": ""
       },
     {
@@ -74,17 +96,6 @@
         "pdf_url":"https://aclanthology.org/2025.emnlp-main.283/",
         "desc": ""
       },
-    {
-      "title": "DUSK: Do not unlearn shared knowledge",
-      "authors": "Wonje Jeung*, Sangyeon Yoon*, Hyesoo Hong*, Soeun Kim, Seungju Han, Youngjae Yu, and Albert No",
-      "venue": "arxiv",
-      "status": "UNDER REVIEW",
-      "year": 2025,
-      "pdf": true,
-      "selected": false,
-      "pdf_url": "https://www.arxiv.org/abs/2505.15209",
-      "desc": ""
-    },
     {
         "title": "SAFEPATH: Preventing Harmful Reasoning in Chain-of-Thought via Early Alignment",
         "authors": "Wonje Jeung, Sangyeon Yoon, Minsuk Kang, and Albert No",

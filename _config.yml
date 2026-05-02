@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Sangyeon Yoon"
 title_separator          : "-"
 name                     : &name "Sangyeon Yoon"
-description              : &description "M.S. student in AI at Yonsei University working on reliable language models."
+description              : &description "M.S. student in AI at Yonsei University"
 url                      : https://ssangyeon.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ssangyeon/ssangyeon.github.io"
@@ -20,9 +20,9 @@ avatar                   : "/images/profile3.png"
 
 footer-links:
   email                  :
-  github                 : "ssangyeon"
+  github                 :
   linkedin               : "sangyeonyoon"
-  rss                    : rss
+  rss                    :
   twitter                :
   instagram              :
   youtube                :
@@ -65,7 +65,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "ssangyeon"
+  github           :
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 

@@ -2,30 +2,14 @@
 layout: default
 ---
 
-<div class="home-intro">
-  <p>I'm Sangyeon Yoon, an M.S. student in Artificial Intelligence at Yonsei University. I work on reliability, evaluation, and unlearning for large language models.</p>
-  <p>You can start with the <a href="{{ site.baseurl }}/about/">About</a> page or browse my <a href="{{ site.baseurl }}/publications/">publications</a>.</p>
-</div>
+<article class="page">
+  <h1>Sangyeon Yoon</h1>
 
-<div class="posts">
-  {% if site.posts.size > 0 %}
-    {% for post in site.posts %}
-      <article class="post">
-        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+  <div class="entry">
+    <p>I'm an M.S. student in Artificial Intelligence at Yonsei University, advised by Prof. Albert No.</p>
 
-        <div class="entry">
-          {{ post.excerpt }}
-        </div>
+    <p>My research focuses on reliable language models, especially robustness, evaluation, and machine unlearning.</p>
 
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-      </article>
-    {% endfor %}
-  {% else %}
-    <article class="post">
-      <h1>Blog posts coming soon</h1>
-      <div class="entry">
-        <p>This site now uses a Jekyll Now-style layout. Until I publish posts, you can explore the About and Publications pages above.</p>
-      </div>
-    </article>
-  {% endif %}
-</div>
+    <p>You can learn more on the <a href="{{ site.baseurl }}/about/">About</a> page or go directly to <a href="{{ site.baseurl }}/publications/">Publications</a>.</p>
+  </div>
+</article>
