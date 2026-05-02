@@ -41,27 +41,47 @@ author_profile: true
 
 <ul id="paper-list" style="list-style-type: none;">
 
-  {% assign conference_count = 0 %}
-  {% assign technical_report_count = 0 %}
-  {% assign workshop_count = 0 %}
+  {% assign conference_total = 0 %}
+  {% assign technical_report_total = 0 %}
+  {% assign workshop_total = 0 %}
+  
+  {% for paper in site.data.publications %}
+    {% assign venue_upper = paper.venue | default: "" | upcase %}
+    {% assign status_upper = paper.status | default: "" | upcase %}
+    {% if status_upper contains "UNDER REVIEW" %}
+    {% elsif venue_upper contains "TECHNICAL REPORT" %}
+      {% assign technical_report_total = technical_report_total | plus: 1 %}
+    {% elsif venue_upper contains "WORKSHOP" %}
+      {% assign workshop_total = workshop_total | plus: 1 %}
+    {% else %}
+      {% assign conference_total = conference_total | plus: 1 %}
+    {% endif %}
+  {% endfor %}
+
+  {% assign conference_number = conference_total %}
+  {% assign technical_report_number = technical_report_total %}
+  {% assign workshop_number = workshop_total %}
   
   {% for paper in site.data.publications %}
   
-  {% assign venue_upper = paper.venue | upcase %}
-  {% if venue_upper contains "TECHNICAL REPORT" %}
-    {% assign technical_report_count = technical_report_count | plus: 1 %}
-    {% assign number = "T" | append: technical_report_count %}
+  {% assign venue_upper = paper.venue | default: "" | upcase %}
+  {% assign status_upper = paper.status | default: "" | upcase %}
+  {% if status_upper contains "UNDER REVIEW" %}
+    {% assign number_label = "(U)" %}
+  {% elsif venue_upper contains "TECHNICAL REPORT" %}
+    {% assign number_label = "T" | append: technical_report_number | append: "." %}
+    {% assign technical_report_number = technical_report_number | minus: 1 %}
   {% elsif venue_upper contains "WORKSHOP" %}
-    {% assign workshop_count = workshop_count | plus: 1 %}
-    {% assign number = "W" | append: workshop_count %}
+    {% assign number_label = "W" | append: workshop_number | append: "." %}
+    {% assign workshop_number = workshop_number | minus: 1 %}
   {% else %}
-    {% assign conference_count = conference_count | plus: 1 %}
-    {% assign number = "C" | append: conference_count %}
+    {% assign number_label = "C" | append: conference_number | append: "." %}
+    {% assign conference_number = conference_number | minus: 1 %}
   {% endif %}
   
   <li class="paper-entry" data-selected="{{ paper.selected | downcase }}" style="list-style-type: none;">
   
-  <span class="paper-number" style="font-weight: bold;">{{ number }}. </span>
+  <span class="paper-number" style="font-weight: bold;">{{ number_label }} </span>
   
   <strong>{{ paper.title }}</strong><br/>
   
