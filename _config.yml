@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Sangyeon's Website"
+title                    : "Sangyeon Yoon"
 title_separator          : "-"
 name                     : &name "Sangyeon Yoon"
-description              : &description "personal description"
+description              : &description "Researching reliability, unlearning, and evaluation for large language models."
 url                      : https://ssangyeon.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "ssangyeon/ssangyeon.github.io"
@@ -25,7 +25,7 @@ author:
   avatar           : "profile3.png"
   name             : "Sangyeon Yoon"
   pronouns         : "he/him"  
-  bio              : "Master student at Yonsei University."
+  bio              : "M.S. student in Artificial Intelligence at Yonsei University, studying reliable language models."
   location         : "South Korea"
   employer         : "Yonsei University"
   uri              : # URL
