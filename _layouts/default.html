@@ -1,31 +1,47 @@
----
-layout: compress
----
-
-{% include base_path %}
-
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
+<!DOCTYPE html>
+<html>
   <head>
-    {% include head.html %}
-    {% include head/custom.html %}
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }}{% if site.description %} – {{ site.description }}{% endif %}</title>
+
+    {% include meta.html %}
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
   </head>
 
   <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" alt="{{ site.name }}" /></a>
 
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
 
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
+          <nav>
+            <a href="{{ site.baseurl }}/">Blog</a>
+            <a href="{{ site.baseurl }}/about/">About</a>
+            <a href="{{ site.baseurl }}/publications/">Publications</a>
+          </nav>
+        </header>
+      </div>
     </div>
 
-    {% include scripts.html %}
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
 
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+          <div class="footer-note">&copy; {{ site.time | date: "%Y" }} {{ site.name }}</div>
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics-jn.html %}
   </body>
 </html>

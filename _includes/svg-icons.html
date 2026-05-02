@@ -1,0 +1,7 @@
+<div class="social-links">
+  {% if site.footer-links.email %}<a class="social-link" href="mailto:{{ site.footer-links.email }}">Email</a>{% endif %}
+  {% if site.footer-links.github %}<a class="social-link" href="https://github.com/{{ site.footer-links.github }}">GitHub</a>{% endif %}
+  {% if site.author.googlescholar %}<a class="social-link" href="{{ site.author.googlescholar }}">Scholar</a>{% endif %}
+  {% if site.footer-links.linkedin %}<a class="social-link" href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}">LinkedIn</a>{% endif %}
+  {% if site.footer-links.rss %}<a class="social-link" href="{{ site.baseurl }}/feed.xml">RSS</a>{% endif %}
+</div>
