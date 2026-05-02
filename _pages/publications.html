@@ -41,6 +41,7 @@ author_profile: true
 
 <ul id="paper-list" style="list-style-type: none;">
 
+  {% assign under_review_total = 0 %}
   {% assign conference_total = 0 %}
   {% assign technical_report_total = 0 %}
   {% assign workshop_total = 0 %}
@@ -49,6 +50,7 @@ author_profile: true
     {% assign venue_upper = paper.venue | default: "" | upcase %}
     {% assign status_upper = paper.status | default: "" | upcase %}
     {% if status_upper contains "UNDER REVIEW" %}
+      {% assign under_review_total = under_review_total | plus: 1 %}
     {% elsif venue_upper contains "TECHNICAL REPORT" %}
       {% assign technical_report_total = technical_report_total | plus: 1 %}
     {% elsif venue_upper contains "WORKSHOP" %}
@@ -58,6 +60,7 @@ author_profile: true
     {% endif %}
   {% endfor %}
 
+  {% assign under_review_number = under_review_total %}
   {% assign conference_number = conference_total %}
   {% assign technical_report_number = technical_report_total %}
   {% assign workshop_number = workshop_total %}
@@ -67,15 +70,16 @@ author_profile: true
   {% assign venue_upper = paper.venue | default: "" | upcase %}
   {% assign status_upper = paper.status | default: "" | upcase %}
   {% if status_upper contains "UNDER REVIEW" %}
-    {% assign number_label = "(U)" %}
+    {% assign number_label = "U" | append: under_review_number %}
+    {% assign under_review_number = under_review_number | minus: 1 %}
   {% elsif venue_upper contains "TECHNICAL REPORT" %}
-    {% assign number_label = "T" | append: technical_report_number | append: "." %}
+    {% assign number_label = "T" | append: technical_report_number %}
     {% assign technical_report_number = technical_report_number | minus: 1 %}
   {% elsif venue_upper contains "WORKSHOP" %}
-    {% assign number_label = "W" | append: workshop_number | append: "." %}
+    {% assign number_label = "W" | append: workshop_number %}
     {% assign workshop_number = workshop_number | minus: 1 %}
   {% else %}
-    {% assign number_label = "C" | append: conference_number | append: "." %}
+    {% assign number_label = "C" | append: conference_number %}
     {% assign conference_number = conference_number | minus: 1 %}
   {% endif %}
   
