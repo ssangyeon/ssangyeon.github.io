@@ -11,15 +11,6 @@ author_profile: true
 ---
 
 
-
-{% if site.author.googlescholar %}
-
-<div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-
-{% endif %}
-
-
-
 {% include base_path %}
   
 
@@ -50,11 +41,23 @@ author_profile: true
 
 <ul id="paper-list" style="list-style-type: none;">
 
-  {% assign total = site.data.publications | size %}
+  {% assign conference_count = 0 %}
+  {% assign technical_report_count = 0 %}
+  {% assign workshop_count = 0 %}
   
   {% for paper in site.data.publications %}
   
-  {% assign number = total | minus: forloop.index0 %}
+  {% assign venue_upper = paper.venue | upcase %}
+  {% if venue_upper contains "TECHNICAL REPORT" %}
+    {% assign technical_report_count = technical_report_count | plus: 1 %}
+    {% assign number = "T" | append: technical_report_count %}
+  {% elsif venue_upper contains "WORKSHOP" %}
+    {% assign workshop_count = workshop_count | plus: 1 %}
+    {% assign number = "W" | append: workshop_count %}
+  {% else %}
+    {% assign conference_count = conference_count | plus: 1 %}
+    {% assign number = "C" | append: conference_count %}
+  {% endif %}
   
   <li class="paper-entry" data-selected="{{ paper.selected | downcase }}" style="list-style-type: none;">
   
@@ -67,8 +70,7 @@ author_profile: true
       {% assign authors_array = paper.authors | split: ", " %}
       {% for author in authors_array %}
         {% assign trimmed_author = author | strip %}
-        {% comment %} Check for "Sangyeon Yoon" or "Sangyeon Yoon*" {% endcomment %}
-        {% if trimmed_author == "Sangyeon Yoon" or trimmed_author == "Sangyeon Yoon*" %}
+        {% if trimmed_author contains "Sangyeon Yoon" %}
           <strong>{{ trimmed_author }}</strong>{% if forloop.last == false %},{% endif %}
         {% else %}
           {{ trimmed_author }}{% if forloop.last == false %},{% endif %}
