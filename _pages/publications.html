@@ -36,6 +36,12 @@ author_profile: true
       margin-right: 0.5em;
       display: inline;
     }
+    .paper-authors {
+      font-size: 0.92em;
+    }
+    .paper-meta {
+      font-size: 0.9em;
+    }
   </style>
 
 
@@ -70,16 +76,16 @@ author_profile: true
   {% assign venue_upper = paper.venue | default: "" | upcase %}
   {% assign status_upper = paper.status | default: "" | upcase %}
   {% if status_upper contains "UNDER REVIEW" %}
-    {% assign number_label = "U" | append: under_review_number %}
+    {% assign number_label = "[P" | append: under_review_number | append: "]" %}
     {% assign under_review_number = under_review_number | minus: 1 %}
   {% elsif venue_upper contains "TECHNICAL REPORT" %}
-    {% assign number_label = "T" | append: technical_report_number %}
+    {% assign number_label = "[T" | append: technical_report_number | append: "]" %}
     {% assign technical_report_number = technical_report_number | minus: 1 %}
   {% elsif venue_upper contains "WORKSHOP" %}
-    {% assign number_label = "W" | append: workshop_number %}
+    {% assign number_label = "[W" | append: workshop_number | append: "]" %}
     {% assign workshop_number = workshop_number | minus: 1 %}
   {% else %}
-    {% assign number_label = "C" | append: conference_number %}
+    {% assign number_label = "[C" | append: conference_number | append: "]" %}
     {% assign conference_number = conference_number | minus: 1 %}
   {% endif %}
   
@@ -90,6 +96,7 @@ author_profile: true
   <strong>{{ paper.title }}</strong><br/>
   
   {% if paper.authors %}
+    <div class="paper-authors">
       {% comment %} Split authors by ", " to handle cases like "Author1, Author2, Author3" {% endcomment %}
       {% assign authors_array = paper.authors | split: ", " %}
       {% for author in authors_array %}
@@ -100,7 +107,8 @@ author_profile: true
           {{ trimmed_author }}{% if forloop.last == false %},{% endif %}
         {% endif %}
         {% if forloop.last == false %}{% endif %}
-      {% endfor %}<br/>
+      {% endfor %}
+    </div>
   {% endif %}
   
   
@@ -109,20 +117,21 @@ author_profile: true
   {% if paper.venue != "" %} {% assign components = components | append: paper.venue | append: ", " %} {% endif %}
   {% if paper.status != "" %} {% assign components = components | append: "<em>" | append: paper.status | append: "</em>" | append: ", " %} {% endif %}
   {% if paper.year != "" %} {% assign components = components | append: paper.year %} {% endif %}
-  {{ components }}
-  
-  
-  {% if paper.pdf_url %}
-  
-  <a href="{{ paper.pdf_url }}" target="_blank">[pdf]</a>
-  
-  {% endif %}
-  
-  {% if paper.website_url %}
-  
-  <a href="{{ paper.website_url }}" target="_blank">[website]</a>
-  
-  {% endif %}
+  <div class="paper-meta">
+    {{ components }}
+    
+    {% if paper.pdf_url %}
+    
+    <a href="{{ paper.pdf_url }}" target="_blank">[pdf]</a>
+    
+    {% endif %}
+    
+    {% if paper.website_url %}
+    
+    <a href="{{ paper.website_url }}" target="_blank">[website]</a>
+    
+    {% endif %}
+  </div>
   
   
   {% if paper.desc %}
