@@ -585,30 +585,6 @@
         text-decoration: underline;
     }
 
-    /* Visitor Map */
-    .visitor-section {
-        margin-bottom: 2rem;
-    }
-
-    .visitor-map {
-        width: 250px;
-        max-width: 100%;
-        min-height: 125px;
-        overflow: hidden;
-    }
-
-    .visitor-map iframe,
-    .visitor-map object,
-    .visitor-map embed {
-        max-width: 100%;
-    }
-
-    .visitor-note {
-        margin-top: 0.45rem;
-        color: var(--muted);
-        font-size: 0.8rem;
-    }
-    
     /* Footer */
     .footer {
         text-align: center;
@@ -703,13 +679,6 @@
             gap: 1rem;
         }
 
-        .visitor-map {
-            margin: 0 auto;
-        }
-
-        .visitor-note {
-            text-align: center;
-        }
     }
     
     </style>
@@ -723,7 +692,6 @@
                 <a href="#about" class="active">About</a>
                 <a href="#publications">Publications</a>
                 <a href="#blog">Blog</a>
-                <a href="#visitors">Visitors</a>
             </div>
         </div>
     </nav>
@@ -1078,20 +1046,6 @@
             </div>
         </section>
 
-        <!-- Visitor Map Section -->
-        <section id="visitors" class="section compact-section visitor-section">
-            <h2 class="section-header">Visitors</h2>
-            <div class="visitor-map">
-                <script id="_wausyv">
-                    var _wau = _wau || [];
-                    _wau.push(["map", "syoon202605", "syv", "250", "125", "natural", "star-blue"]);
-                </script>
-                <script async src="https://waust.at/m.js"></script>
-            </div>
-            <p class="visitor-note">
-                Live visitor map and online count.
-            </p>
-        </section>
     </div>
 
     <!-- Footer -->
@@ -1154,5 +1108,12 @@
             }
         }
     </script>
+    <div style="display: none;" aria-hidden="true">
+        <script id="_wausyv">
+            var _wau = _wau || [];
+            _wau.push(["map", "syoon202605", "syv", "250", "125", "natural", "star-blue"]);
+        </script>
+        <script async src="https://waust.at/m.js"></script>
+    </div>
 </body>
 </html>
