@@ -5,7 +5,7 @@
         "venue": "Preprint",
         "status": "UNDER REVIEW",
         "year": 2026,
-        "pdf_url": "https://arxiv.org/abs/2603.16557",
+        "pdf_url": "https://arxiv.org/abs/2605.10998",
         "selected": false,
         "desc": "TL;DR: We show that DPO fine-tuning can create a hard-to-audit jailbreak risk: just 10 harmless preference pairs that prefer helpful answers over refusals can broadly suppress refusal behavior on harmful prompts."
       },
