@@ -2,7 +2,7 @@
     {
         "title": "Few-Shot Truly Benign DPO Attack for Jailbreaking LLMs",
         "authors": "Sangyeon Yoon*, Wonje Jeung*, Yoonjun Cho, Dongjae Jeon, and Albert No",
-        "venue": "arxiv",
+        "venue": "Preprint",
         "status": "UNDER REVIEW",
         "year": 2026,
         "pdf_url": "https://arxiv.org/abs/2603.16557",
@@ -12,7 +12,7 @@
     {
         "title": "BenchPreS: A Benchmark for Context-Aware Personalized Preference Selectivity of Persistent-Memory LLMs",
         "authors": "Sangyeon Yoon, Sunkyoung Kim, Hyesoo Hong, Wonje Jeung, Yongil Kim, Wooseok Seo, Heuiyeen Yeen, and Albert No",
-        "venue": "arxiv",
+        "venue": "Preprint",
         "status": "UNDER REVIEW",
         "year": 2026,
         "pdf_url": "https://arxiv.org/abs/2603.16557",
