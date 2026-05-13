@@ -1,5 +1,15 @@
 [
     {
+        "title": "Few-Shot Truly Benign DPO Attack for Jailbreaking LLMs",
+        "authors": "Sangyeon Yoon*, Wonje Jeung*, Yoonjun Cho, Dongjae Jeon, and Albert No",
+        "venue": "arxiv",
+        "status": "UNDER REVIEW",
+        "year": 2026,
+        "pdf_url": "https://arxiv.org/abs/2603.16557",
+        "selected": false,
+        "desc": "TL;DR: We show that DPO fine-tuning can create a hard-to-audit jailbreak risk: just 10 harmless preference pairs that prefer helpful answers over refusals can broadly suppress refusal behavior on harmful prompts."
+      },
+    {
         "title": "BenchPreS: A Benchmark for Context-Aware Personalized Preference Selectivity of Persistent-Memory LLMs",
         "authors": "Sangyeon Yoon, Sunkyoung Kim, Hyesoo Hong, Wonje Jeung, Yongil Kim, Wooseok Seo, Heuiyeen Yeen, and Albert No",
         "venue": "arxiv",
