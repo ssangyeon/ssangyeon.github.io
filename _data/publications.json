@@ -5,9 +5,9 @@
         "venue": "Preprint",
         "status": "UNDER REVIEW",
         "year": 2026,
-        "pdf_url": false,
+        "pdf_url": "/files/paper/CALIF.pdf",
         "selected": false,
-        "desc": ""
+        "desc": "TL;DR: We diagnose reward hacking in verifiable instruction following, where models satisfy output constraints while failing to meaningfully answer requests, and introduce CALIF, a calibrated likelihood bonus that improves constraint satisfaction while preserving response quality without an additional judge or reward model."
     },
     {
         "title": "Instruction Following with Composable Constraints",
