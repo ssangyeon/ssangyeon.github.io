@@ -1,7 +1,7 @@
 [
     {
         "title": "Diagnosing and Correcting Reward Hacking in Verifiable Instruction Following",
-        "authors": "Sangyeon Yoon*, Wooseok Seo*, Hamish Ivison, Hyesoo Hong, Donghoon Kim, Wonjun Kang, Albert No, Jaehyung Kim",
+        "authors": "Sangyeon Yoon*, Wooseok Seo*, Hamish Ivison, Hyesoo Hong, Donghoon Kim, Wonjun Kang, Albert No<sup>&dagger;</sup>, Jaehyung Kim<sup>&dagger;</sup>",
         "venue": "Preprint",
         "status": "UNDER REVIEW",
         "year": 2026,
