@@ -1,5 +1,25 @@
 [
     {
+        "title": "Diagnosing and Correcting Reward Hacking in Verifiable Instruction Following",
+        "authors": "Sangyeon Yoon*, Wooseok Seo*, Hamish Ivison, Hyesoo Hong, Donghoon Kim, Wonjun Kang, Albert No, Jaehyung Kim",
+        "venue": "Preprint",
+        "status": "UNDER REVIEW",
+        "year": 2026,
+        "pdf_url": false,
+        "selected": false,
+        "desc": ""
+    },
+    {
+        "title": "Instruction Following with Composable Constraints",
+        "authors": "Wooseok Seo, Sangyeon Yoon, Valentina Pyatkin, Heuiyeen Yeen, Sunkyoung Kim, Yongil Kim, Youngjae Yu, Seokhee Hong",
+        "venue": "Preprint",
+        "status": "UNDER REVIEW",
+        "year": 2026,
+        "pdf_url": false,
+        "selected": false,
+        "desc": ""
+    },
+    {
         "title": "Few-Shot Truly Benign DPO Attack for Jailbreaking LLMs",
         "authors": "Sangyeon Yoon*, Wonje Jeung*, Yoonjun Cho, Dongjae Jeon, and Albert No",
         "venue": "NeurIPS",
