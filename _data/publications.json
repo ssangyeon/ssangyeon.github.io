@@ -5,7 +5,7 @@
         "venue": "Preprint",
         "status": "UNDER REVIEW",
         "year": 2026,
-        "pdf_url": "/files/paper/CALIF.pdf",
+        "pdf_url": "https://arxiv.org/abs/2610.19525",
         "selected": false,
         "desc": "TL;DR: We diagnose reward hacking in verifiable instruction following, where models satisfy output constraints while failing to meaningfully answer requests, and introduce CALIF, a calibrated likelihood bonus that improves constraint satisfaction while preserving response quality without an additional judge or reward model."
     },
